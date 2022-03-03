@@ -1,0 +1,15 @@
+body{
+    background-image: url("../res/background.png");
+    background-size: cover;
+    color: #cccccc;
+    text-align: center;
+}
+h1{
+    margin-top: 22%;
+    font-size:  70px;
+    font-weight: bolder;
+    filter: drop-shadow(0px 7px 2px #351f2a);
+}
+h3{
+    font-weight: lighter;
+}
