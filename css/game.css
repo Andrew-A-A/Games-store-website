@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    background-image: url("../res/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+    color: azure;
+}
+h1{
+    margin: 3%;
+    font-weight: bold;
+    color: rgb(66, 171, 227);
+    text-align: center;
+    background-color: rgb(56, 38, 60);
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    font-size:medium;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    background-color: rgb(39, 36, 36);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+img{
+ padding-left: 40%;
+ display: block;
+}
+p{
+    text-align: left;
+    padding-left: 5%;
+}
+*{
+    font-size: medium;
+    text-align: left;
+}
+h2{
+    display: inline;
+}
+svg{
+    width: 5%;
+    height: 5%;
+}
+ul{
+    padding-left: 5%;
+}
+
+
