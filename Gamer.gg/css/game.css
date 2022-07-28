@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Montserrat',sans-serif;
+    overflow-x: hidden;
+    color: gray;
+    font-size: medium;
+}
+h1{
+    margin: 3%;
+    font-weight: bold;
+    color: rgb(66, 171, 227);
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    font-size:medium;
+    font-family: sans-serif;
+}
+img{
+ padding-left: 42%;
+ display: block;
+}
+p{
+    text-align: left;
+    padding-left: 5%;
+}
+
+h2{
+    display: inline;
+}
+svg{
+    width: 5%;
+    height: 5%;
+}
+ul{
+    padding-left: 5%;
+}
+.body {
+    background-color: rgba(0,0,0,0.8);
+    
+}

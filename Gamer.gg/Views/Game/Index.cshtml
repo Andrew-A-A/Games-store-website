@@ -1,0 +1,22 @@
+﻿@using Gamer.gg.Models
+@model  IEnumerable<Gamer.gg.Models.Game>
+@{
+    ViewBag.Title = @Model.ElementAt(0).getGenre();
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    @foreach (var game in Model)
+    {
+        <div class="col-md-2">
+            <div class="card" style="width: 18rem; background-color: rgb(46, 44, 44);">
+                <a href="/Game/Details/@game.Id">
+                    <img class="card-img-top" src="@game.Image" alt="@game.Name">
+                    <div class="card-body" style="background-color: rgb(56, 51, 51);">
+                        <p class="card-text">@game.Name</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+
+
